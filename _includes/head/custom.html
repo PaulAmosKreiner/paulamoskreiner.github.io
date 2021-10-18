@@ -1,0 +1,17 @@
+<!-- start custom head snippets -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- Dark mode -->
+{% if site.minimal_mistakes_skin_dark %}
+  <meta name="color-scheme" content="light dark">
+  <style>
+    @import url("{{ '/assets/css/main2.css' | relative_url }}") (prefers-color-scheme: dark);
+  </style>
+{% endif %}
+
+<!-- end custom head snippets -->

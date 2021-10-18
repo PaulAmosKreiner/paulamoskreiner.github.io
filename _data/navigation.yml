@@ -1,0 +1,9 @@
+main:
+# - title: "Political Economy"
+#   url: /tags/political-economy
+# - title: "Data Science"
+#   url: /tags/data-science
+ - title: "de"
+   url: /de
+ - title: "en"
+   url: /en
